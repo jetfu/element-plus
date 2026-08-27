@@ -3,7 +3,7 @@
     <template #date-cell="{ data }">
       <p :class="data.isSelected ? 'is-selected' : ''">
         {{ data.day.split('-').slice(1).join('-') }}
-        {{ data.isSelected ? '✔️' : '' }}
+        {{ data.isSelected ? '✔️1' : '' }}
       </p>
     </template>
   </el-calendar>
